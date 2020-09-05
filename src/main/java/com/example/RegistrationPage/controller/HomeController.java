@@ -22,6 +22,7 @@ public class HomeController {
 	@RequestMapping(value = "/")
 	public String homeController() {
 		log.info("controller home page executed");
+		log.info("checking the code");
 		return "registration";
 	}
 
